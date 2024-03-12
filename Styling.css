@@ -1,0 +1,101 @@
+/*style.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cef3fc;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-simple-atmospheric-blue-temperature-needle-illustration-background-image_279280.jpg);
+  background-repeat:no-repeat;
+  background-position:right;
+  background-size:contain;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.title {
+  color: #014444;
+  font-size: 3rem;
+  text-align: center;
+}
+.temperature-converter {
+  background: #3ac2c0;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 25px 20px;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+}
+.result {
+  text-align: center;
+  margin: 20px 0;
+}
+.result-heading {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.celsius-value {
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+label {
+  color: white;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+input,
+select {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+input:focus {
+  border: 1px solid #ffffff;
+}
+.degree-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.degree-field {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+}
+option {
+  background-color: #013e3f;
+  color: #f6f6f6;
+}
+#convert-btn {
+  background: linear-gradient(to bottom, #014e61, #1d4c58);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #f6f6f6;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 12px 80px;
+  transition: all 0.3s ease-in;
+}
+#convert-btn:hover {
+  background: linear-gradient(to bottom, #01696a, #025268);
+}
